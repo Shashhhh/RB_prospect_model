@@ -1,15 +1,15 @@
 import pandas as pd
 from IPython.display import display
-df_2014 = pd.read_csv('2014.csv')
-df_2015 = pd.read_csv('2015.csv')
-df_2016  = pd.read_csv('2016.csv')
-df_2017  = pd.read_csv('2017.csv')
-df_2018  = pd.read_csv('2018.csv')
-df_2019  = pd.read_csv('2019.csv')
-df_2020  = pd.read_csv('2020.csv')
-df_2021 = pd.read_csv('2021.csv')
-df_2022 = pd.read_csv('2022.csv')
-df_2023 = pd.read_csv('2023.csv')
+df_2014 = pd.read_csv('Fantasy_csv/2014.csv')
+df_2015 = pd.read_csv('Fantasy_csv/2015.csv')
+df_2016  = pd.read_csv('Fantasy_csv/2016.csv')
+df_2017  = pd.read_csv('Fantasy_csv/2017.csv')
+df_2018  = pd.read_csv('Fantasy_csv/2018.csv')
+df_2019  = pd.read_csv('Fantasy_csv/2019.csv')
+df_2020  = pd.read_csv('Fantasy_csv/2020.csv')
+df_2021 = pd.read_csv('Fantasy_csv/2021.csv')
+df_2022 = pd.read_csv('Fantasy_csv/2022.csv')
+df_2023 = pd.read_csv('Fantasy_csv/2023.csv')
 
 df_2014['Year'] = 2014
 df_2015['Year'] = 2015
@@ -59,16 +59,16 @@ display(main_df)
 
 
 
-draft_2014 = pd.read_csv('2014_draft.csv')
-draft_2015 = pd.read_csv('2015_draft.csv')
-draft_2016  = pd.read_csv('2016_draft.csv')
-draft_2017  = pd.read_csv('2017_draft.csv')
-draft_2018  = pd.read_csv('2018_draft.csv')
-draft_2019  = pd.read_csv('2019_draft.csv')
-draft_2020  = pd.read_csv('2020_draft.csv')
-draft_2021 = pd.read_csv('2021_draft.csv')
-draft_2022 = pd.read_csv('2022_draft.csv')
-draft_2023 = pd.read_csv('2023_draft.csv')
+draft_2014 = pd.read_csv('Draft_csv/2014_draft.csv')
+draft_2015 = pd.read_csv('Draft_csv/2015_draft.csv')
+draft_2016  = pd.read_csv('Draft_csv/2016_draft.csv')
+draft_2017  = pd.read_csv('Draft_csv/2017_draft.csv')
+draft_2018  = pd.read_csv('Draft_csv/2018_draft.csv')
+draft_2019  = pd.read_csv('Draft_csv/2019_draft.csv')
+draft_2020  = pd.read_csv('Draft_csv/2020_draft.csv')
+draft_2021 = pd.read_csv('Draft_csv/2021_draft.csv')
+draft_2022 = pd.read_csv('Draft_csv/2022_draft.csv')
+draft_2023 = pd.read_csv('Draft_csv/2023_draft.csv')
 
 draft_2014['Year'] = 2014
 draft_2015['Year'] = 2015
