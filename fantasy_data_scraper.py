@@ -1,3 +1,6 @@
+#Author : Ben Dominguez
+#Github : bendominguez0111
+
 import requests
 from bs4 import BeautifulSoup as BS
 import pandas as pd
